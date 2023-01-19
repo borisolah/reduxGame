@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/reduxGame/static/css/main.4abf2f08.css",
+    "main.js": "/reduxGame/static/js/main.baa65c4b.js",
+    "index.html": "/reduxGame/index.html",
+    "main.4abf2f08.css.map": "/reduxGame/static/css/main.4abf2f08.css.map",
+    "main.baa65c4b.js.map": "/reduxGame/static/js/main.baa65c4b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4abf2f08.css",
+    "static/js/main.baa65c4b.js"
+  ]
+}
