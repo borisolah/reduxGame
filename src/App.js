@@ -1,15 +1,19 @@
-import Game from "./features/counter/Game.js";
-import AddPlayer from "./features/counter/AddPlayer.js";
-import DisplayWinner from "./features/counter/DisplayWinner";
+import Game from "./features/components/Game.js";
+import AddPlayer from "./features/components/AddPlayer.js";
+import DisplayWinner from "./features/components/DisplayWinner";
 import "./App.css";
 
 function App() {
   return (
-    <main className="App">
+    <div>
+      <header className="header">
+        <AddPlayer />
+      </header>
+      <main className="App">
+        <Game />
+      </main>
       <DisplayWinner />
-      <AddPlayer />
-      <Game />
-    </main>
+    </div>
   );
 }
 

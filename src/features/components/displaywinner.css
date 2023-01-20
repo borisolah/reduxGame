@@ -1,0 +1,16 @@
+.displayWinner {
+  position: fixed;
+  bottom: 0;
+  display: inline-block;
+  height: auto;
+  border: 3px solid black;
+}
+
+.winnerIsText {
+  font-size: 2.7vh;
+}
+
+.winnerNameDisplayed {
+  font-size: 3vh;
+  text-align: center;
+}

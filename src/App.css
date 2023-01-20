@@ -2,11 +2,16 @@
 * {
   box-sizing: border-box;
 }
+
+.header {
+  display: grid;
+  grid-template-columns: auto;
+}
+
 .bigBox {
   display: grid;
   grid-template-columns: 7% 86% 7%;
-  width: 1000px;
-  background-color: #f44336;
+  width: 70vw;
 }
 
 .button {
@@ -33,16 +38,4 @@
 
 .html {
   background-color: #04aa6d;
-} /* Green */
-.css {
-  width: 80%;
-  background-color: #2196f3;
-} /* Blue */
-.js {
-  width: 65%;
-  background-color: #f44336;
-} /* Red */
-.php {
-  width: 60%;
-  background-color: #808080;
-} /* Dark Grey */
+}

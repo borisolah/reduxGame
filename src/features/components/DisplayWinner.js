@@ -1,4 +1,5 @@
 import { useSelector } from "react-redux";
+import "./displaywinner.css";
 
 const DisplayWinner = () => {
   const players = useSelector((state) => state.players);
@@ -16,10 +17,10 @@ const DisplayWinner = () => {
   console.log("first");
 
   return (
-    <header>
-      <div>DisplayWinner</div>
-      <h1>{showWinnerName()}</h1>
-    </header>
+    <div className="displayWinner">
+      <div className="winnerIsText">The Winner Is: </div>
+      <h1 className="winnerNameDisplayed">{showWinnerName()}</h1>
+    </div>
   );
 };
 

@@ -1,5 +1,6 @@
 import { useSelector, useDispatch } from "react-redux";
-import { increment, decrement } from "./playerSlice";
+import { increment, decrement } from "../redux/playerSlice";
+import "./game.css";
 
 const Game = () => {
   const players = useSelector((state) => state.players);
@@ -29,7 +30,7 @@ const Game = () => {
 
   return (
     <section>
-      <h2>Game</h2>
+      <h1 className="gameh1">ULTIMATES HATES GAMES</h1>
       <br />
       {renderedPlayers}
     </section>

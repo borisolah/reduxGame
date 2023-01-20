@@ -1,0 +1,31 @@
+.addNewPlayer {
+  font-size: 3vh;
+}
+
+.inputBoxes {
+  display: flex;
+  flex-direction: column;
+}
+.newPlayerBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.input {
+  margin-bottom: 2vh;
+  display: inline-block;
+  width: 176vw;
+  height: 4vh;
+}
+
+.addButton {
+  width: 80px;
+}
+.label {
+  margin-top: 2vh;
+  text-align: center;
+  font-size: 20px;
+  font: bold;
+}
