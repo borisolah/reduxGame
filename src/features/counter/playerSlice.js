@@ -1,7 +1,7 @@
 import { createSlice, nanoid } from "@reduxjs/toolkit";
 
 const idemo = [
-  { id: 1, name: "Csillag", title: "majstor", count: 55 },
+  { id: 1, name: "Csillag", title: "majstor", count: 5 },
   { id: 2, name: "Borisz", title: "krajzeh", count: 0 },
 ];
 const initialState = idemo;

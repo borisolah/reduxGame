@@ -1,17 +1,20 @@
 import { useSelector, useDispatch } from "react-redux";
 import { increment, decrement } from "./playerSlice";
-import { useState } from "react";
 
 const Game = () => {
   const players = useSelector((state) => state.players);
   const dispatch = useDispatch();
-  const [incrementAmount, setIncrementAmount] = useState(0);
-  const addValue = Number(incrementAmount) || 0;
-  /*  const resetAll = () => {
-    setIncrementAmount(0);
-    dispatch(reset());
-  };
- */
+
+  const playerCountList = players.map((player) => player.count);
+  const winnerIs = playerCountList.reduce((a, b) => Math.max(a, b), -Infinity);
+
+  function showWinnerName() {
+    const winnerPlayer = players.filter((player) => player.count === winnerIs);
+    return winnerPlayer.map((player) => player.name).join(" VS ");
+  }
+
+  //This clg runs 2 times, idk why
+  console.log(showWinnerName());
 
   const renderedPlayers = players.map((player) => (
     <div key={player.id}>
@@ -19,6 +22,7 @@ const Game = () => {
       <p>{player.count}</p>
       <p>{player.title}</p>
       <p>{player.id}</p>
+      <p>Winner is: {showWinnerName()}</p>
       <div className="bigBox">
         <button
           className="button"
