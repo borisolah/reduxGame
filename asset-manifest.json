@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/reduxGame/static/css/main.43e978d0.css",
-    "main.js": "/reduxGame/static/js/main.8c451a06.js",
+    "main.css": "/reduxGame/static/css/main.7bcba205.css",
+    "main.js": "/reduxGame/static/js/main.e678a3e6.js",
     "index.html": "/reduxGame/index.html",
-    "main.43e978d0.css.map": "/reduxGame/static/css/main.43e978d0.css.map",
-    "main.8c451a06.js.map": "/reduxGame/static/js/main.8c451a06.js.map"
+    "main.7bcba205.css.map": "/reduxGame/static/css/main.7bcba205.css.map",
+    "main.e678a3e6.js.map": "/reduxGame/static/js/main.e678a3e6.js.map"
   },
   "entrypoints": [
-    "static/css/main.43e978d0.css",
-    "static/js/main.8c451a06.js"
+    "static/css/main.7bcba205.css",
+    "static/js/main.e678a3e6.js"
   ]
 }
