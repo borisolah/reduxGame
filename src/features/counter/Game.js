@@ -19,9 +19,7 @@ const Game = () => {
   const renderedPlayers = players.map((player) => (
     <div key={player.id}>
       <h3>{player.name}</h3>
-      <p>{player.count}</p>
       <p>{player.title}</p>
-      <p>{player.id}</p>
       <p>Winner is: {showWinnerName()}</p>
       <div className="bigBox">
         <button
